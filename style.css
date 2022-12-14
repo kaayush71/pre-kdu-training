@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /* display: flex; */
+  padding: 0px 20px 20px 20px;
+  background-color: #111111;
+  min-height: 100vh;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_img {
+  margin: 50px 100px;
+  height: 600px;
+  width: 32vw;
+}
+.about_text {
+  text-align: justify;
+  color: rgba(230, 230, 230, 0.856);
+  max-width: 570px;
+  letter-spacing: 0.07rem;
+  line-height: 35px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.education {
+  /* display: flex; */
+  margin-top: 60px;
+  /* justify-content: center; */
+}
+.education_title {
+  text-align: center;
+  color: rgba(230, 230, 230, 0.856);
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+th,
+tr,
+td {
+  border: 1px solid white;
+  padding: 20px;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(230, 230, 230, 0.856);
+  font-family: 'Poppins', sans-serif;
+}
+.table_heading {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.work {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.work_heading {
+  text-align: center;
+  color: rgba(230, 230, 230, 0.856);
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.card {
+  margin: 20px;
+}
+.card_img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 350px;
+  width: 100%;
+}
+.contact_heading {
+  text-align: center;
+  color: rgba(230, 230, 230, 0.856);
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+text-decoration: none;
+  text-align: center;
+  color: rgba(230, 230, 230, 0.856) !important;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+}
